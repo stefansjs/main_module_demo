@@ -1,0 +1,11 @@
+[project]
+name = "main_module_demo"
+version = "1.0"
+description = "Demonstrates printing the module to which a main script belongs"
+authors = [
+    "Stefan Sullivan <stefan.sullivan@gmail.com>"
+]
+license = "MIT"
+python = "^3.6"
+homepage = "https://github.com/stefansjs/main_module_demo"
+repository = "https://github.com/stefansjs/main_module_demo"
