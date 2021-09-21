@@ -1,11 +1,21 @@
-[project]
-name = "main_module_demo"
-version = "1.0"
-description = "Demonstrates printing the module to which a main script belongs"
+[metadata]
+name = main_module_demo
+version = 1.0
+description = Demonstrates printing the module to which a main script belongs
 authors = [
     "Stefan Sullivan <stefan.sullivan@gmail.com>"
 ]
-license = "MIT"
-python = "^3.6"
+license = MIT
 homepage = "https://github.com/stefansjs/main_module_demo"
 repository = "https://github.com/stefansjs/main_module_demo"
+classifiers =
+    Programming Language :: Python :: 3
+    Programming Language :: Python :: 3.6
+
+[options]
+package_dir=
+    =python
+packages=find:
+
+[options.packages.find]
+where=python
